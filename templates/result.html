@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Malaria Test Application🔥</title>
+      <link rel="icon" href="{{ url_for('static', filename='images/icon.png') }}" type="image/gif">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/grayscale.css') }}">
+   </head>
+   <body>
+      <div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background: #AAA;">
+         <div class="container">
+            <h2 class="display-1">{{ prediction }}</h2>
+         </div>
+      </div>
+      <div class="container">
+         <h2 align="center">Understanding the Working of the Application</h2>
+         <br>
+         <p>
+            <font size="4">
+            This Machine Learning Web Application utilizes a Two-Layered Convolutional Neural Network to process the Cell Images and predict if they are 
+            Malarial with an accuracy of nearly 95%. The Dataset to process the Deep Learning Algorithm is taken from the official US National Library of Medicine's NIH Website which is a repository of segmented cells from the thin blood smear slide images from the Malaria Screener research activity.
+            </font>
+         </p>
+         <img src="{{url_for('static', filename='analysis.jpg')}}" align="middle"/>
+         <p align="middle"><font size="2"><b>Figure: The Confusion Matrix and Validation Accuracy Graph</b></font></p>
+         <br>
+         <h2 align="center">How our Application is better than Traditional Methods?</h2>
+         <br>
+         <p><br>
+            <font size="4">
+            Where malaria is not endemic any more (such as in the United States), health-care providers may not be familiar with the disease. Clinicians seeing a malaria patient may forget to consider malaria among the potential diagnoses and not order the needed diagnostic tests. Laboratorians may lack experience with malaria and fail to detect parasites when examining blood smears under the microscope.
+            Malaria is an acute febrile illness. In a non-immune individual, symptoms usually appear 10–15 days after the infective mosquito bite. The first symptoms – fever, headache, and chills – may be mild and difficult to recognize as malaria. If not treated within 24 hours, P. falciparum malaria can progress to severe illness, often leading to death.
+            Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% and Recall Score of 92%. This provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Binary Classification Problems where time and accuracy is the paramount objective of classification.
+            </font>
+         </p>
+      </div>
+      <footer class="container text-center footer">
+         <p class="footerp" style="margin-top:30px; color:black; font-size:15px">Made with <span style="color:red"> &#9829 </span> by <a href="https://github.com/harshcasper" style="text-decoration:none" target="_blank">Harsh Bardhan Mishra</a></p>
+      </footer>
+   </body>
+</html>
