@@ -1,0 +1,462 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+ #mainNav {
+    min-height: 56px;
+    background-color: #fff;
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    color: #64a19d;
+    border: 1px solid #64a19d;
+  }
+  
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  #mainNav .navbar-brand {
+    color: #161616;
+    font-weight: 700;
+  }
+  
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent;
+  }
+  
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: darkgray;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+      color: white;
+    }
+    #mainNav .navbar-brand.active {
+      color: white;
+      border-bottom: 0.25rem solid white;
+    }
+    #mainNav .nav-link {
+      -webkit-transition: none;
+      transition: none;
+      color: white;
+    }
+    #mainNav .nav-link:hover {
+      color: rgba(255, 255, 255, 0.75);
+    }
+    #mainNav .nav-link.active {
+      color: white;
+      border-bottom: 0.25rem solid white;
+    }
+    #mainNav.navbar-shrink {
+      background-color: #fff;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #161616;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      color: #161616;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: #64a19d;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: #467370;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: #64a19d;
+      outline: none;
+      border-bottom: 0.25rem solid #64a19d;
+    }
+  }
+  
+  .masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/buildings-1837028_1920.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/buildings-1837028_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  .masthead h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .masthead h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .masthead h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .masthead h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
+  
+  .btn {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+  }
+  
+  .btn-primary {
+    background-color: #64a19d;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4f837f;
+  }
+  
+  .btn-primary:focus {
+    background-color: #4f837f;
+    color: white;
+  }
+  
+  .btn-primary:active {
+    background-color: #467370 !important;
+  }
+  
+  .my-section {
+    padding-top: 6rem;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
+    background-color: rgb(255, 255, 255)
+  }
+  
+  .my-section p {
+    margin-bottom: 0rem;
+  }
+  
+  .projects-section {
+    padding: 10rem 0;
+  }
+  
+  .projects-section .featured-text {
+    padding: 2rem;
+  }
+  
+  @media (min-width: 992px) {
+    .projects-section .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid #64a19d;
+    }
+  }
+  
+  .projects-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+  }
+  
+  @media (min-width: 992px) {
+    .projects-section .project-text {
+      padding: 5rem;
+    }
+    .projects-section .project-text hr {
+      border-color: #64a19d;
+      border-width: .25rem;
+      width: 30%;
+    }
+  }
+  
+  .signup-section {
+    padding: 6rem;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/city-1031706_1920.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/city-1031706_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; */
+    background-color: rgb(255, 255, 255)
+  }
+  
+  .signup-section .form-inline input {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(136, 138, 250, 0.1) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(136, 138, 250, 0.1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+  }
+  
+  .signup-section .form-group input.form-control {
+    background: darkgray !important;
+    height: 79px; }
+  .signup-section .form-group textarea.form-control {
+    background: darkgray !important;
+    height: 270px; }
+  
+  .contact-section {
+    padding: 5rem 0 0;
+  }
+  
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  
+  .contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  
+  .contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  
+  body {
+    font-family: 'Nunito';
+    letter-spacing: 0.01em;
+  }
+  
+  a {
+    color: rgb(0, 158, 206);
+  }
+  
+  a:focus, a:hover {
+    text-decoration: none;
+    color: #3c6360;
+  }
+  
+  .bg-black {
+    background-color: #161616 !important;
+  }
+  
+  .bg-primary {
+    background-color: #64a19d !important;
+  }
+  
+  .text-primary {
+    color: #64a19d !important;
+  }
+  
+  footer {
+    padding: 5rem 0;
+  }
+  
+  
+  /* ADDED CSS HERE: */
+  
+  .right-index h4 {
+    font-family: 'Varela Round';
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    opacity: 0.5;
+  }
+  
+  .right-index p {
+    font-family: 'Nunito';
+    font-size: 0.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+  }
+  
+  
+  .headline-card {
+      background-color: hsla(0, 0%, 0%, 0.8);
+      box-shadow:0 20px 50px rgba(255,255,255,.1);
+      color: #fff;
+      transition:0.5s;
+    }
+  .headline-card:hover {
+      box-shadow:0 30px 70px rgba(0,0,0,.2);
+  }
+  
+  .dana-card {
+      top:50%;
+      left:50%;
+      transform:translate(10%,-35%);
+      width:300px;
+      min-height:400px;
+      background:rgba(0, 0, 0, 0.8);
+      box-shadow:0 20px 50px rgba(255,255,255,.1);
+      border-radius:10px;
+      transition:0.5s;
+  }
+  .dana-card:hover {
+      box-shadow:0 30px 70px rgba(0,0,0,.2);
+  }
+  .dana-card .box {
+      position:absolute;
+      top:50%;
+      left:0;
+      transform:translateY(-50%);
+      text-align:center;
+      padding:20px;
+      box-sizing:border-box;
+      width:100%;
+  }
+  .dana-card .box .img {
+      width:170px;
+      height:170px;
+      margin:0 auto;
+      border-radius:50%;
+      overflow:hidden;
+  }
+  .dana-card .box .img img {
+      width:100%;
+      height:100%;
+  }
+  .dana-card .box h2 {
+      font-size:20px;
+      color:rgb(255, 251, 0);
+      margin:20px auto;
+  }
+  .dana-card .box h2 span {
+      font-size:14px;
+      background:#4b6ac0;
+      color:#fff;
+      display:inline-block;
+      padding:4px 10px;
+      border-radius:15px;
+  }
+  .dana-card .box p {
+      color:#fff;
+  }
+  .dana-card .box span {
+      display:inline-flex;
+  }
+  .dana-card .box ul {
+      margin:0;
+      padding:0;
+  }
+  .dana-card .box ul li {
+      list-style:none;
+      float:left;
+  }
+  .dana-card .box ul li a {
+      display:block;
+      color:#aaa;
+      margin:0 10px;
+      font-size:20px;
+      transition:0.5s;
+      text-align:center;
+  }
+  .dana-card .box ul li:hover a {
+      color:#e91e63;
+      transform:rotateY(360deg);
+  }
+  
+  .link-hover1 {
+    transition:0.5s;
+  }
+  
+  .link-hover1:hover {
+    color:#e91e63;
+    transform:rotateY(360deg);
+  }
+  
+  .modal-lg {
+    max-width: 80% !important;
+  }
+  
+  .modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 25px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent; }
+    .portfolio-modal .close-modal:hover {
+      opacity: 0.3; }
+    .portfolio-modal .close-modal .lr {
+      /* Safari and Chrome */
+      z-index: 1051;
+      width: 1px;
+      height: 75px;
+      margin-left: 35px;
+      /* IE 9 */
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      background-color: #212529; }
+      .portfolio-modal .close-modal .lr .rl {
+        /* Safari and Chrome */
+        z-index: 1052;
+        width: 1px;
+        height: 75px;
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        background-color: #212529; }
