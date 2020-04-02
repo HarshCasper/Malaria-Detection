@@ -11,3 +11,45 @@ Where malaria is not endemic any more (such as in the United States), health-car
 In a non-immune individual, symptoms usually appear 10–15 days after the infective mosquito bite. The first symptoms – fever, headache, and chills – may be mild and difficult to recognize as malaria. If not treated within 24 hours, P. falciparum malaria can progress to severe illness, often leading to death. 
 
 Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% and Recall Score of 92%. This provides a handy tool to utilize the power of Machine Learning and Artificial Intelligence in Binary Classification Problems where time and accuracy is the paramount objective of classification.
+
+## 🏁 Technology Stack
+
+* [Flask](https://github.com/pallets/flask)
+* [HTML](https://www.w3.org/TR/html52/)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Keras](http://keras.io/)
+
+## 🏃‍♂️ Local Installation
+
+1. Drop a ⭐ on the Github Repository. 
+2. Clone the Repo by going to your local Git Client and pushing in the command: 
+
+```sh
+https://github.com/HarshCasper/Malaria-Detection.git
+```
+
+3. Install the Packages: 
+```sh
+pip install -r requirements.txt
+```
+
+4. At last, push in the command:
+```sh
+python app.py
+```
+
+5. Go to ` http://127.0.0.1:5000/` and enjoy the application.
+
+## 📋 Further Changes to be Done
+
+- [ ] Deploying the Web Application on Cloud.
+- [ ] Development of an architecture using Pre-Trained Model like VGG16.
+- [ ] Implementing the Model in PyTorch.
+- [ ] Enhance the User-Interface using HTML/CSS.
+- [ ] Set the Application on Docker.
+
+## LICENSE
+
+[MIT](https://github.com/HarshCasper/Malaria-Detection/blob/master/LICENSE)
