@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>                
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Malaria Test Application🔥</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/icon.png') }}" type="image/gif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/grayscale.css') }}">
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background: #AAA;">
+    <div class="container">
+        <h2 class="display-2">Classifying Malarial Cells using Convolutional Neural Networks</h2>
+        <br>
+        <img src="{{url_for('static', filename='disease.png')}}" align="middle" width=100 height=100/>
+        <br><br>
+        <p class="text-white bg-dark">Malaria is a mosquito-borne infectious disease that affects humans and other animals. Malaria causes symptoms that typically include fever, tiredness, vomiting, and headaches. This Web Application utilizes Tensorflow and Flask to develop and deploy
+        a Machine Learning Web Application that can detect Malaria Cell using Image Processing.</p>
+    </div>
+</div>
+
+<div class="container">
+<h3 align="">
+<form action="/result" method="POST" enctype="multipart/form-data">
+	<div>
+    <input type="file" name="pic" accept="image/*">
+</div>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+</form>
+</div> 
+<footer class="container text-center footer">
+        <p class="footerp" style="margin-top:30px; color:black; font-size:15px">Made with <span style="color:red"> &#9829 </span> by <a href="https://github.com/harshcasper" style="text-decoration:none" target="_blank">Harsh Bardhan Mishra</a></p>
+      </footer>
+<style> 
+input[type=submit] {
+  background-color: #AAA;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+div{
+  padding:5px 10px;
+  border:1px solid #000000;
+  position:relative;
+  color:#FFFFFF;
+  border-radius:2px;
+}
+</style>
+</body>
+</html>
