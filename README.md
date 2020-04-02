@@ -50,6 +50,6 @@ python app.py
 - [ ] Enhance the User-Interface using HTML/CSS.
 - [ ] Set the Application on Docker.
 
-## LICENSE
+## 📜 LICENSE
 
 [MIT](https://github.com/HarshCasper/Malaria-Detection/blob/master/LICENSE)
