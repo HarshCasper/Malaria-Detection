@@ -28,7 +28,7 @@ def image_preprocess(img):
 
 @app.route('/')
 def home():
-  return render_template("home.html")
+  return render_template("index.html")
 @app.route('/result', methods = ['POST'])
 def result():
     prediction=''
