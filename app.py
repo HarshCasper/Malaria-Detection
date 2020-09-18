@@ -5,14 +5,11 @@ import numpy as np
 import re
 from keras.preprocessing import image
 from skimage import transform
-from tensorflow.python.framework import ops
-
 
 app = Flask(__name__)
 loaded_model = load_model("models/model_malaria.h5")
 loaded_model._make_predict_function()
-#graph = tf.get_default_graph()
-graph =ops.reset_default_graph()
+graph = tf.get_default_graph()
 
 def ValuePredictor(np_arr):   
     global graph
@@ -31,7 +28,7 @@ def image_preprocess(img):
 
 @app.route('/')
 def home():
-  return render_template("home.html")
+  return render_template("index.html")
 @app.route('/result', methods = ['POST'])
 def result():
     prediction=''
