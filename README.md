@@ -19,6 +19,7 @@ Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% an
 
 ## 🏁 Technology Stack
 
+* [Python 3.8 or older](https://github.com/python)
 * [Flask](https://github.com/pallets/flask)
 * [HTML](https://www.w3.org/TR/html52/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
