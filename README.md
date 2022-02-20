@@ -32,7 +32,7 @@ Our Model performs fairly well with an accuracy of 95% and an F1 Score of 95% an
 2. Clone the Repo by going to your local Git Client and pushing in the command: 
 
 ```sh
-https://github.com/HarshCasper/Malaria-Detection.git
+git clone https://github.com/HarshCasper/Malaria-Detection.git
 ```
 
 3. Install the Packages: 
